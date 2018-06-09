@@ -25,3 +25,19 @@ CONTACT
  Send bug reports, suggestions and patches to
 <sundell.software@gmail.com> or to the mailinglist.
 
+
+FORK NOTES
+
+This fork is a set of fixes and enhancements.
+Note: unmerged issues are not on master branch but on a separate branches.
+
+Change Log:
+
+- 13-May-2018 : Fix honoring "throttle.min_peers*" settings in rtorrent (#13)
+- 10-Dec-2017 : IPv4 filter enhancement (#11) (Merged)
+- 02-Aug-2017 : Fix compiling issue with gcc v6.x and empty CXXFLAGS (#10) (Merged)
+- 14-May-2017 : Display info on failed tracker bencode parsing (#9)
+- 06-Mar-2017 : Fix partially done downloads and choke groups (#8)
+- 23-Aug-2016 : Fix honoring system.file.allocate.set=1 rtorrent config setting (#5)
+- 21-Aug-2016 : Fix honoring system.file.allocate.set=0 rtorrent config setting (#2) (Merged)
+
